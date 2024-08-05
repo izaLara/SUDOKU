@@ -58,7 +58,7 @@ def main():
  
     while True:
         imprimir_grade(grade)
-        linha = int(input("Digite a linha (1-9): ")) - 1 # AQUI SERÁ SELECIONADA A LINHA QUE DESEJA ADICIONAR UM VALOR
+        linha = - 1 # AQUI SERÁ SELECIONADA A LINHA QUE DESEJA ADICIONAR UM VALOR
         coluna = int(input("Digite a coluna (1-9): ")) - 1 # AQUI SERÁ SELECIONADA A COLUNA EM QUE DESEJA ADICIONAR UM VALOR
         numero = int(input("Digite o número (1-9): ")) # AQUI SERÁ ESCOLHIDO O NÚMERO A SER ADICIONADO PARA COMPARAÇÃO
 
